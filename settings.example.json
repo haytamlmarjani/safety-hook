@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 \"%USERPROFILE%\\.claude\\hooks\\safety_hook.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

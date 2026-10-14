@@ -1,0 +1,3 @@
+2026-10-14T01:33:32+00:00	BLOCKED	recursive file deletion (rm -rf / rm -r / Remove-Item -Recurse style)	cwd=C:\demo-project	cmd=rm -rf /tmp/demo-build
+2026-10-14T01:33:32+00:00	BLOCKED	force-pushing to git (git push --force / -f)	cwd=C:\demo-project	cmd=git push origin main --force
+2026-10-14T01:33:32+00:00	BLOCKED	destructive SQL (DELETE FROM without a WHERE clause)	cwd=C:\demo-project	cmd=sqlite3 app.db "DELETE FROM users;"
